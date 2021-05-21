@@ -1,3 +1,5 @@
+import { IDocumentFormat } from '../dtos/DocumentFormat';
+
 interface ILetterOfAttorneyData {
   name: string;
   nationality: string;
@@ -17,7 +19,7 @@ interface ILetterOfAttorneyData {
 
 interface ILetterOfAttorney {
   // generatePdf(text: string): Promise<void>;
-  generatePdf(text: string): Promise<PDFKit.PDFDocument>;
+  generatePdf(text: IDocumentFormat): Promise<PDFKit.PDFDocument>;
 }
 
 export { ILetterOfAttorney, ILetterOfAttorneyData };

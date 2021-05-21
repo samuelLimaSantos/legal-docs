@@ -28,6 +28,7 @@
     "@types/pdfkit": "^0.11.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "moment": "^2.29.1",
     "pdfkit": "^0.12.1",
     "reflect-metadata": "^0.1.13",
     "tsyringe": "^4.5.0"
